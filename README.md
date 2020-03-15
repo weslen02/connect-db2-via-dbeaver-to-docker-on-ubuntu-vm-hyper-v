@@ -1,4 +1,4 @@
-# Connect to Docker on Ubuntu VM Hyper-V
+# Connect DB2 vai DBeaver to Docker on Ubuntu VM Hyper-V
 
 How connect DB2 via DBeaver to Docker using an Ubuntu VM installed on Hyper-V.
 
