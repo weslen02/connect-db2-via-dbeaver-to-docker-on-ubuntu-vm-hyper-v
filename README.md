@@ -23,3 +23,4 @@ Install a normal Ubuntu VM and, after installation, use the 2 networks settings 
 <img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/1.1.1.png" class="center">
 
 - 1.2. On Ubuntu, get the second network with the shell and the command ```ifconfig```, then keep the IP static as the image shows below:
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/1.2.png" class="center">
