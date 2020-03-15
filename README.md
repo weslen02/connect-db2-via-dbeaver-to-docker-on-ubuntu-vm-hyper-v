@@ -117,7 +117,7 @@ This is not a reference document, but it aims to share knowledge, you can help i
 
 > **Together**, *we can* do more through the IT!
 
-<img src="https://github.com/weslen02/end-img/blob/master/img/tks.png" class="center">
+<img src="https://github.com/weslen02/end-img/blob/master/tks.png" class="center">
 
 by:
 
