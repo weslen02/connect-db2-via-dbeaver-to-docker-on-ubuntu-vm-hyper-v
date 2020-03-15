@@ -7,6 +7,9 @@ How connect DB2 via DBeaver to Docker using an Ubuntu VM installed on Hyper-V.
 ### Contents
 - [1. Hyper-V networking Settings](#1-hyper-v-networking-settings)
 - [2. Installing DB2 on the Docker](#2-installing-db2-on-the-docker)
+- [3. Connecting DB2 on Docker with DBeaver](#3-connecting-db2-on-docker-with-dbeaver)
+- [4. Reference](#4-reference)
+- [5. About](#5-about)
 
 ## Steps:
 
@@ -98,3 +101,26 @@ Here you will need change only host for the IP Address that we configuration in 
 
 *Test connection*
 <img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/3.0.1.png" class="center">
+
+### 4. Reference
+Last access 2020-02-16.
+- [IBM Install Docker](https://www.ibm.com/support/knowledgecenter/SSEPGG_11.5.0/com.ibm.db2.luw.qb.server.doc/doc/t_install_db2CE_win_img.html?view=embed
+https://blogs.windows.com/windowsdeveloper/2018/09/17/run-ubuntu-virtual-machines-made-even-easier-with-hyper-v-quick-create/)
+
+- [Run Ubuntu virtual machines made even easier with Hyper-V Quick Create](https://blogs.windows.com/windowsdeveloper/2018/09/17/run-ubuntu-virtual-machines-made-even-easier-with-hyper-v-quick-create/)
+
+- [Install DBeaver and Connect to PreInt DB2](https://github.com/ca-cwds/intake/wiki/Install-DBeaver-and-Connect-to-PreInt-DB2)
+
+- [Docker DB2](https://hub.docker.com/r/ibmcom/db2)
+
+### 5. About
+This is not a reference document, but it aims to share knowledge, you can help improve it, I know that the english applied here is not the best, I'm brazilian and I'm learning this new language, so if you find mistakes, I apologize, and also I ask you to do a Fork and help me to improve this document so that other people can better understand it and so maybe solve a blocker, together we can do more with IT.
+
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/assWeslen.png" class="center">
+
+by:
+
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/tks.png" class="center">
+
+> A good **knowledge** is **shared knowledge**!
+
