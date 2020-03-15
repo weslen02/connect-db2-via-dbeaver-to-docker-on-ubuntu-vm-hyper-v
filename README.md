@@ -25,8 +25,8 @@ Install a normal Ubuntu VM and, after installation, use the 2 networks settings 
 - 1.2. On Ubuntu, get the second network with the shell and the command ```ifconfig```, then keep the IP static as the image shows below:
 <img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/1.2.0.png" class="center">
 
-You can see on Windows with the command:
+You can see in Windows with the command:
 <img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/1.2.1.png" class="center">
 
-And See the on Hyper-V Tab Network:
+And see the network settings on the Hyper-V Networking tab:
 <img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/1.2.2.png" class="center">
