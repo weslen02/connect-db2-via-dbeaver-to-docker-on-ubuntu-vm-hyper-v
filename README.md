@@ -104,8 +104,7 @@ Here you will need change only host for the IP Address that we configuration in 
 
 ### 4. Reference
 Last access 2020-02-16.
-- [IBM Install Docker](https://www.ibm.com/support/knowledgecenter/SSEPGG_11.5.0/com.ibm.db2.luw.qb.server.doc/doc/t_install_db2CE_win_img.html?view=embed
-https://blogs.windows.com/windowsdeveloper/2018/09/17/run-ubuntu-virtual-machines-made-even-easier-with-hyper-v-quick-create/)
+- [IBM Install Docker](https://www.ibm.com/support/knowledgecenter/SSEPGG_11.5.0/com.ibm.db2.luw.qb.server.doc/doc/t_install_db2CE_win_img.html?view=embed)
 
 - [Run Ubuntu virtual machines made even easier with Hyper-V Quick Create](https://blogs.windows.com/windowsdeveloper/2018/09/17/run-ubuntu-virtual-machines-made-even-easier-with-hyper-v-quick-create/)
 
@@ -116,11 +115,12 @@ https://blogs.windows.com/windowsdeveloper/2018/09/17/run-ubuntu-virtual-machine
 ### 5. About
 This is not a reference document, but it aims to share knowledge, you can help improve it, I know that the english applied here is not the best, I'm brazilian and I'm learning this new language, so if you find mistakes, I apologize, and also I ask you to do a Fork and help me to improve this document so that other people can better understand it and so maybe solve a blocker, together we can do more with IT.
 
-<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/assWeslen.png" class="center">
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/tks.png" class="center">
 
 by:
 
-<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/tks.png" class="center">
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/assWeslen2.png" class="center">
+
 
 > A good **knowledge** is **shared knowledge**!
 
