@@ -34,12 +34,12 @@ And see the network settings on the Hyper-V Networking tab:
 
 ### 2. Installing DB2 on the Docker
 **Procedure**
-1. From the bash, create a new directory for your Docker image, how to exemple:
+- 1. From the bash, create a new directory for your Docker image, how to exemple:
 ```
 mkdir /home/dockerDB2
 ```
 
-2. Go to this directory by entering the following command:
+- 2. Go to this directory by entering the following command:
 ```
 cd /home/dockerDB2
 ```
@@ -47,23 +47,23 @@ cd /home/dockerDB2
 > **Note** Docker uses a configuration file, config.json, for unencrypted storage of credentials. As a result, prior to entering your user name and password, you will receive the message, WARNING: Error loading config file...., followed by the expected default location of the config.json file.
 This message will not prevent you from entering your credentials and accessing your Docker environment. Once you have logged into Docker creates a config.json file and stores your credentials in the file at the default location. See docker login for information on creating secure storage of your Docker credentials.
 
-3. Log into your Docker container:
+- 3. Log into your Docker container:
 ```
 docker login
 ```
 
-4. Pull the Db2 Docker image from Docker Hub:
+- 4. Pull the Db2 Docker image from Docker Hub:
 ```
 docker pull ibmcom/db2
 ```
 
-5. From your Docker folder, create an environment variables file, .env_list, for your Db2 Community Edition image:
+- 5. From your Docker folder, create an environment variables file, .env_list, for your Db2 Community Edition image:
 ```
 touch .env_list
 ```
 
 Be sure to include the quotation symbols when creating the file.
-6. In a text editor, open the .env_list file and paste the following:
+- 6. In a text editor, open the .env_list file and paste the following:
 
 ```
 LICENSE=accept
@@ -83,8 +83,18 @@ ETCD_USERNAME=
 ETCD_PASSWORD=
 ```
 
-8. Enter and run the following command to enter the Docker container:
+- 8. Enter and run the following command to enter the Docker container:
 ```
 docker run -h mydb2 --name mydb2  --restart=always --detach --privileged=true -p 50000:50000 -p 55000:55000 --env-file .env_list -v /home/dockerDB2:/database ibmcom/db2
 ```
 
+### 3. Connecting DB2 on Docker with DBeaver
+After installation DB2 Docker, we will connect DB2 to the DBeaver database tool.
+> You need to create a connection in DBeaver on DB2 based, you can find out how to do this by <a href="https://github.com/ca-cwds/intake/wiki/Install-DBeaver-and-Connect-to-PreInt-DB2" target="_blank">clicking here</a> *(Last Access: 2020-03-15)*.
+Here you will need change only host for the IP Address that we configuration in the Ubuntu. See the Image Below
+
+*Host with IP ADDRESS*
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/3.0.0.png" class="center">
+
+*Test connection*
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/3.0.1.png" class="center">
