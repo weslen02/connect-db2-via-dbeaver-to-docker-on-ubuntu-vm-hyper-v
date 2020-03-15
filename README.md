@@ -35,25 +35,36 @@ And see the network settings on the Hyper-V Networking tab:
 ### 2. Installing DB2 on the Docker
 **Procedure**
 1. From the bash, create a new directory for your Docker image, how to exemple:
-```mkdir /home/dockerDB2```
+```
+mkdir /home/dockerDB2
+```
 
 2. Go to this directory by entering the following command:
-```cd /home/dockerDB2```
+```
+cd /home/dockerDB2
+```
 
 > **Note** Docker uses a configuration file, config.json, for unencrypted storage of credentials. As a result, prior to entering your user name and password, you will receive the message, WARNING: Error loading config file...., followed by the expected default location of the config.json file.
 This message will not prevent you from entering your credentials and accessing your Docker environment. Once you have logged into Docker creates a config.json file and stores your credentials in the file at the default location. See docker login for information on creating secure storage of your Docker credentials.
 
 3. Log into your Docker container:
-```docker login```
+```
+docker login
+```
 
 4. Pull the Db2 Docker image from Docker Hub:
-```docker pull ibmcom/db2```
+```
+docker pull ibmcom/db2
+```
 
 5. From your Docker folder, create an environment variables file, .env_list, for your Db2 Community Edition image:
-```touch .env_list```
+```
+touch .env_list
+```
 
 Be sure to include the quotation symbols when creating the file.
 6. In a text editor, open the .env_list file and paste the following:
+
 ```
 LICENSE=accept
 DB2INSTANCE=db2inst1
