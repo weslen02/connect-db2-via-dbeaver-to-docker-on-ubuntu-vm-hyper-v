@@ -6,6 +6,8 @@ How connect via DBeaver to Docker using an Ubuntu VM installed on Hyper-V.
 
 ## Steps:
 
-1. Install a normal Ubuntu VM and, after installation, use the Network settings as the image is showing below. This is necessary because you need an Internet network and a static network to connect to a host database DB2, thus avoiding having to change the host every time you log into Ubuntu.
+1. Install a normal Ubuntu VM and, after installation, use the Network settings as the images is showing below. This is necessary because you need an Internet network and a static network to connect to a host database DB2, thus avoiding having to change the host every time you log into Ubuntu.
 
-> PS: In the news version, you can install the Ubuntu, 
+> PS: In the new versions of Hyper-v, you can install Ubuntu directly in the installation settings, without needing the ISO image, see more about it by [clicking here](https://blogs.windows.com/windowsdeveloper/2018/09/17/run-ubuntu-virtual-machines-made-even-easier-with-hyper-v-quick-create/)
+
+- 1.1. MAC Address - The MAC address must be static for both networks in Hyper-v
