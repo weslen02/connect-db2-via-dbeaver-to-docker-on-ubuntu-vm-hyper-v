@@ -17,7 +17,7 @@ Install a normal Ubuntu VM and, after installation, use the 2 networks settings 
 - 1.1. MAC Address - The MAC address must be static for both networks in Hyper-V
 
 <i>Static MAC Address 1</i>
-<img src="https://github.com/weslen02/connect-to-docker-on-ubuntu-VM-Hyper-v/blob/master/img/1.1.0.png" class="center">
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/1.1.0.png" class="center">
 
 <i>Static MAC Address 2</i>
-<img src="https://github.com/weslen02/connect-to-docker-on-ubuntu-VM-Hyper-v/blob/master/img/1.1.1.png" class="center">
+<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/1.1.1.png" class="center">
