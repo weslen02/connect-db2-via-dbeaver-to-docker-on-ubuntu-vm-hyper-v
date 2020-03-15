@@ -113,14 +113,15 @@ Last access 2020-02-16.
 - [Docker DB2](https://hub.docker.com/r/ibmcom/db2)
 
 ### 5. About
-This is not a reference document, but it aims to share knowledge, you can help improve it, I know that the english applied here is not the best, I'm brazilian and I'm learning this new language, so if you find mistakes, I apologize, and also I ask you to do a Fork and help me to improve this document so that other people can better understand it and so maybe solve a blocker, together we can do more with IT.
+This is not a reference document, but it aims to share knowledge, you can help improve it, I know that the english applied here is not the best, I'm brazilian and I'm learning this new language, so if you find mistakes, I apologize, and also I ask you to do a Fork and help me to improve this document so that other people can better understand it and so maybe solve a blocker.
 
-<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/tks.png" class="center">
+> **Together**, *we can* do more through the IT!
+
+<img src="https://github.com/weslen02/end-img/blob/master/img/tks.png" class="center">
 
 by:
 
-<img src="https://github.com/weslen02/connect-db2-via-dbeaver-to-docker-on-ubuntu-vm-hyper-v/blob/master/img/assWeslen2.png" class="center">
+<img src="https://github.com/weslen02/end-img/blob/master/assWeslen2.png" class="center">
 
 
 > A good **knowledge** is **shared knowledge**!
-
